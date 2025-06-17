@@ -2,15 +2,15 @@ Javascript :
 -Khai báo biến , cú pháp, câu lệnh, hàm và sư kiện  
   +code sample : bài tập máy tính đơn giản.
     <body>
-    <input id="n1" type="text"><br>
-    <p id="op"></p><br>
-    <input id="n2" type="text"><br>
-    <p>=</p><br>
-    <p id="rs"></p>
-    <button id="+" onclick="myFunction()" >+</button  >
-    <button id="-" onclick="myFunction()" >-</button  >
-    <button id="*" onclick="myFunction()" >*</button  >
-    <button id="/" onclick="myFunction()" >/</button>
+      <input id="n1" type="text"><br>
+      <p id="op"></p><br>
+      <input id="n2" type="text"><br>
+      <p>=</p><br>
+      <p id="rs"></p>
+      <button id="+" onclick="myFunction()" >+</button  >
+      <button id="-" onclick="myFunction()" >-</button  >
+      <button id="*" onclick="myFunction()" >*</button  >
+      <button id="/" onclick="myFunction()" >/</button>
     <script>
         function myFunction(){
             const element = document.activeElement.id;
@@ -34,7 +34,7 @@ Javascript :
             document.getElementById("rs").innerHTML=rs;
         }
     </script>
-</body>
+  </body>
   + code sample : bài tập todolist.
     <body>
     
