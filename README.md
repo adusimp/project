@@ -1,7 +1,8 @@
 Javascript :
 -Khai báo biến , cú pháp, câu lệnh, hàm và sư kiện  
   +code sample : bài tập máy tính đơn giản.
-    <body>
+   ```
+       <body>
       <input id="n1" type="text"><br>
       <p id="op"></p><br>
       <input id="n2" type="text"><br>
@@ -34,9 +35,11 @@ Javascript :
             document.getElementById("rs").innerHTML=rs;
         }
     </script>
-  </body>
+  </body> 
+   ```
   + code sample : bài tập todolist.
-    <body>
+```
+ <body>
     
         <input type="text" id="val">
         <input type="submit" value="submit" onclick="myFunction()">
@@ -54,4 +57,5 @@ Javascript :
         todolist.add(li)
     }
 </script>
+```
     
