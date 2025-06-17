@@ -1,4 +1,4 @@
-Javascript :
+*Javascript :
 -Khai báo biến , cú pháp, câu lệnh, hàm và sư kiện  
 
   +code sample : bài tập máy tính đơn giản.
@@ -157,3 +157,28 @@ Javascript :
     </script>
 </body>
   ```
+
+*Typscript
+-Các kiểu nguyên thủy và type annotation:
+    +code sample :
+    ```
+    
+        let age: number = 25;
+        let name: string = "An";
+        let isStudent: boolean = true;
+        let id: symbol = Symbol("id");
+        let largeNumber: bigint = 12345678901234567890n;
+        let nothingHere: null = null;
+        let notSet: undefined = undefined;    
+        
+    ```
+-Generic trong function : cho phép hàm làm việc với nhiều kiểu khác nhau 
+    +cú pháp : 
+  ```
+
+    function tenHam<T>(thamSo: T): T {
+  return thamSo;
+}
+
+```
+  +
