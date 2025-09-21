@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <input type="text" id="val">
+        <input type="submit" value="submit" onclick="myFunction()">
+    
+    <select name="todolist" id="sl1" style="width: 100px;" >
+        
+    </select>
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("val").value;
+        var todolist = document.getElementById("sl1")
+        var li = document.createElement("option")
+        li.innerHTML=x
+        todolist.add(li)
+    }
+</script>
+</html>
